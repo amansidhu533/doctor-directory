@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Doctor Directory Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based application to list, search, filter, and manage a directory of doctors. Users can search doctors by name, filter by specialty or location, and add new doctors to the list via a modal form.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Search**: Search doctors by name using the search bar.
+- **Filter**: Filter doctors by specialty and location.
+- **Pagination**: Paginate through the list of doctors.
+- **View Details**: Click on any doctor to view their details in a modal.
+- **Add New Doctor**: Add new doctors to the directory through a modal form.
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+├── build
+├── node_modules
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── api                     # Placeholder for API-related files
+│   │   └── index.js
+│   ├── assets                   # Placeholder for assets like images or fonts
+│   ├── components               # Contains React components
+│   │   ├── AddDoctorForm.js     # Form component for adding a new doctor
+│   │   ├── Banner.js
+│   │   ├── DoctorCard.js
+│   │   ├── DoctorModal.js
+│   │   ├── FilterBar.js
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   ├── Navbar.js
+│   │   ├── SearchBar.js
+│   ├── Data                     # Contains static JSON data
+│   │   └── index.json           # Static JSON file with doctor data
+│   ├── pages                    # Contains main pages for the app
+│   │   └── DoctorListPage.js    # Main page for listing doctors
+│   ├── App.css                  # Global styles
+│   ├── App.js                   # Main App component
+│   ├── index.css                # Additional styling
+│   ├── index.js                 # Entry point of the React app
+│   ├── logo.svg                 # Logo for the app
+│   ├── reportWebVitals.js       # Performance measurement for the app
+│   ├── setupTests.js            # Test setup
+├── .gitignore                   # Ignored files in version control
+├── package-lock.json            # Lockfile for npm dependencies
+├── package.json                 # Dependencies and scripts
+└── README.md                    # This README file
