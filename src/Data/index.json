@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Doe",
+    "specialty": "Cardiology",
+    "location": "New York, NY",
+    "rating": 4.8,
+    "phone": "(123) 456-7890",
+    "email": "johndoe@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jane Smith",
+    "specialty": "Dermatology",
+    "location": "Los Angeles, CA",
+    "rating": 4.7,
+    "phone": "(987) 654-3210",
+    "email": "janesmith@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Mike Johnson",
+    "specialty": "Pediatrics",
+    "location": "Chicago, IL",
+    "rating": 4.5,
+    "phone": "(312) 123-4567",
+    "email": "mikejohnson@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sarah Lee",
+    "specialty": "Neurology",
+    "location": "San Francisco, CA",
+    "rating": 4.9,
+    "phone": "(415) 987-6543",
+    "email": "sarahlee@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Emily Davis",
+    "specialty": "Orthopedics",
+    "location": "Dallas, TX",
+    "rating": 4.6,
+    "phone": "(214) 765-4321",
+    "email": "emilydavis@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Michael Brown",
+    "specialty": "Oncology",
+    "location": "Miami, FL",
+    "rating": 4.7,
+    "phone": "(305) 321-9876",
+    "email": "michaelbrown@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Lisa Martinez",
+    "specialty": "Dermatology",
+    "location": "Seattle, WA",
+    "rating": 4.4,
+    "phone": "(206) 555-6789",
+    "email": "lisamartinez@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Dr. David Wilson",
+    "specialty": "Psychiatry",
+    "location": "Boston, MA",
+    "rating": 4.8,
+    "phone": "(617) 654-3210",
+    "email": "davidwilson@example.com"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Karen White",
+    "specialty": "Cardiology",
+    "location": "Austin, TX",
+    "rating": 4.9,
+    "phone": "(512) 555-1234",
+    "email": "karenwhite@example.com"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Kevin Anderson",
+    "specialty": "Neurology",
+    "location": "Denver, CO",
+    "rating": 4.6,
+    "phone": "(303) 987-6543",
+    "email": "kevinanderson@example.com"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Jessica Thomas",
+    "specialty": "Pediatrics",
+    "location": "Houston, TX",
+    "rating": 4.7,
+    "phone": "(713) 765-4321",
+    "email": "jessicathomas@example.com"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Brian Clark",
+    "specialty": "Oncology",
+    "location": "Phoenix, AZ",
+    "rating": 3.5,
+    "phone": "(602) 555-6789",
+    "email": "brianclark@example.com"
+  }
+]
