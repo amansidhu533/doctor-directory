@@ -8,6 +8,10 @@
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   grid-gap: 20px;
 }
+.logo img {
+  width: auto;
+  height: 54px;
+}
 
 @media (min-width: 768px) {
   .cards-wrap {
